@@ -4,23 +4,23 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________
 2] cd lab2,cat > bardiau, on écris hello M2 syscom puis on fait ctrl+d
 ________________________________________________________________________________________________
-3] git init, (mentionne le répertoire actuel comme git repository donc lab2)
+3] git init, (mentionne le répertoire actuel donc lab2 comme git repository)
 ________________________________________________________________________________________________
-4] git Status nous précise les fichiers modifiés (modified) et ceux qui ne sont pas ajoutés
-(untracked files)
+4] git Status nous précise les fichiers modifiés (modified) et ceux qui ne sont pas ajoutés à
+ l'index (untracked files)
 ________________________________________________________________________________________________
 5] git add bardiau, git status, (changes to be commit),le fichier à bien été ajouter à l'index
 ________________________________________________________________________________________________
-6)git commit -m "Bonjour"
+6)git commit -m "Bonjour" (On a créer un capure à l'instant t de tout les fichiers)
+en refaisant git status le terminal indique que tout est à jour.
 ________________________________________________________________________________________________
-8,9,10] 
+7,8] 
 git remote add origin url (connection entre répertoire local et celui du github)
-git push -u origin master
+git push -u origin master (télécharger tout les fichiers de l'index dans le répertoire github)
 
-Au départ on a dans lab2 2 fichiers : bardiau et CR-lab2, en faisant git pull on mets à jour le 
+9,10] Au départ on a dans lab2 2 fichiers : bardiau et CR-lab2, en faisant git pull on mets à jour le 
 répertoire local en ajoutant le fichier README qu'on a creer sur github dans le lab2 local. 
-(possible car on a mentionner ce répertoire en git repository)
 ________________________________________________________________________________________________
-11] pour aller dans §HOME : cd , pour cloner : git clone URL (clone le répertoire de github sur 
-home, cela nous permettra de récupérer les fichiers sur le server github)
+11] pour aller dans §HOME : cd , pour cloner : git clone https://github.com/SyscomRemy/lab2.git
+ (clone le répertoire de github sur home, cela nous permettra de récupérer les fichiers sur le server github)
 ________________________________________________________________________________________________
