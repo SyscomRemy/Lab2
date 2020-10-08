@@ -21,6 +21,6 @@ git push -u origin master (télécharger tout les fichiers de l'index dans le r�
 9,10] Au départ on a dans lab2 2 fichiers : bardiau et CR-lab2, en faisant git pull on mets à jour le 
 répertoire local en ajoutant le fichier README qu'on a creer sur github dans le lab2 local. 
 ________________________________________________________________________________________________
-11] pour aller dans §HOME : cd , pour cloner : git clone https://github.com/SyscomRemy/lab2.git
+11] pour aller dans §HOME : cd ~, pour cloner : git clone https://github.com/SyscomRemy/lab2.git
  (clone le répertoire de github sur home, cela nous permettra de récupérer les fichiers sur le server github)
 ________________________________________________________________________________________________
